@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/casual-leave-application/static/css/main.8c28079a.chunk.css",
+    "main.js": "/casual-leave-application/static/js/main.59992200.chunk.js",
+    "main.js.map": "/casual-leave-application/static/js/main.59992200.chunk.js.map",
+    "runtime-main.js": "/casual-leave-application/static/js/runtime-main.a92bcf9f.js",
+    "runtime-main.js.map": "/casual-leave-application/static/js/runtime-main.a92bcf9f.js.map",
+    "static/js/2.046ac9fc.chunk.js": "/casual-leave-application/static/js/2.046ac9fc.chunk.js",
+    "static/js/2.046ac9fc.chunk.js.map": "/casual-leave-application/static/js/2.046ac9fc.chunk.js.map",
+    "static/js/3.0e9fd3b8.chunk.js": "/casual-leave-application/static/js/3.0e9fd3b8.chunk.js",
+    "static/js/3.0e9fd3b8.chunk.js.map": "/casual-leave-application/static/js/3.0e9fd3b8.chunk.js.map",
+    "static/js/4.941789a2.chunk.js": "/casual-leave-application/static/js/4.941789a2.chunk.js",
+    "static/js/4.941789a2.chunk.js.map": "/casual-leave-application/static/js/4.941789a2.chunk.js.map",
+    "static/js/5.86630b38.chunk.js": "/casual-leave-application/static/js/5.86630b38.chunk.js",
+    "static/js/5.86630b38.chunk.js.map": "/casual-leave-application/static/js/5.86630b38.chunk.js.map",
+    "index.html": "/casual-leave-application/index.html",
+    "static/css/main.8c28079a.chunk.css.map": "/casual-leave-application/static/css/main.8c28079a.chunk.css.map",
+    "static/js/2.046ac9fc.chunk.js.LICENSE.txt": "/casual-leave-application/static/js/2.046ac9fc.chunk.js.LICENSE.txt",
+    "static/js/3.0e9fd3b8.chunk.js.LICENSE.txt": "/casual-leave-application/static/js/3.0e9fd3b8.chunk.js.LICENSE.txt",
+    "static/js/4.941789a2.chunk.js.LICENSE.txt": "/casual-leave-application/static/js/4.941789a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a92bcf9f.js",
+    "static/js/3.0e9fd3b8.chunk.js",
+    "static/css/main.8c28079a.chunk.css",
+    "static/js/main.59992200.chunk.js"
+  ]
+}
