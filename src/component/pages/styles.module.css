@@ -1,0 +1,173 @@
+/* Home page styles */
+.formContainer {
+  padding: 30px;
+}
+.sectiontHeading {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+.fieldList {
+  width: 90% !important;
+  margin: auto !important;
+  padding: 15px 15px !important;
+}
+.fieldListItem {
+  padding: 20px 10px !important;
+  border: none !important;
+}
+/* submit button section */
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.customBtn {
+  margin-right: 10px !important;
+}
+
+.btnIcon {
+  margin-right: 5px;
+}
+
+/* doc wrapper section */
+.docContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.docWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clgName {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.appName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.listContainter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 15px;
+  min-width: 250px;
+}
+.listTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.listDist {
+  width: 50%;
+  margin-left: 10px;
+}
+.arrangementTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.tableTitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+.tableContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.tableHeader th {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid;
+  padding: 5px;
+}
+.tableContent td {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  border: 1px solid;
+  padding: 5px;
+}
+.docDiver {
+  width: 100%;
+  background-color: black;
+  margin: 15px 0;
+}
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+.footerInnerContainer {
+  display: flex;
+  flex-direction: column;
+}
+.firstLine {
+  margin-bottom: 50px;
+}
+.section {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.alignRight {
+  text-align: right;
+}
+.firstLine {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .formContainer {
+    padding: 15px;
+  }
+  .pageTitle {
+    font-size: 35px;
+  }
+  .subTitle {
+    font-size: 18px;
+  }
+  .fieldList {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .btnContainer {
+    justify-content: space-around;
+  }
+}

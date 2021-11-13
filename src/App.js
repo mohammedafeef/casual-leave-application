@@ -1,24 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { useState } from "react";
+import "./App.css";
+import { Container } from "@mui/material";
+import Home from "./component/pages/Home";
+import Preview from "./component/pages/Preview";
 
 function App() {
+  const [previewData, setPreviewData] = useState({});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <div className="appContainer">
+          <Container className="formWrapper">
+            <div className="appTitle">
+              <h1 className="pageTitle">Application for casual leave</h1>
+              <span className="subTitle">
+                EMEA COLLEGE OF ARTS & SCIENCE, KONDOTTI
+              </span>
+            </div>
+            <Route
+              exact
+              path="/"
+              component={() => (
+                <Home
+                  previewData={previewData}
+                  setPreviewData={setPreviewData}
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/home"
+              component={() => (
+                <Home
+                  previewData={previewData}
+                  setPreviewData={setPreviewData}
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/preview"
+              component={() => (
+                <Preview
+                  previewData={previewData}
+                  setPreviewData={setPreviewData}
+                />
+              )}
+            />
+          </Container>
+        </div>
+      </Switch>
+    </Router>
   );
 }
 
