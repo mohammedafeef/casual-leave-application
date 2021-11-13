@@ -37,7 +37,7 @@ export default function Preview(props) {
 
     html2pdf().set(opt).from(element).save();
     history.push("/home");
-    setPreviewData({});
+    setPreviewData('');
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0;
   };
